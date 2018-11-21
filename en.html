@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if (IE 9)]><html class="no-js ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en-US"> <!--<![endif]-->
+<head>
+
+<!-- Meta Tags -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name='wmail-verification' content='18ec4ca31e131560474569b2a2a14b1b' />
+<title>Portfolio Alexandr Zotov | Full Stack Developer</title>   
+
+<meta name="description" content="Professional development of websites and web applications" /> 
+
+<META Name="Keywords" content="Order, cheap,buy,website, Omsk, Modx, Php">
+<!-- Mobile Specifics -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="HandheldFriendly" content="true"/>
+<meta name="MobileOptimized" content="320"/>   
+
+<!-- Mobile Internet Explorer ClearType Technology -->
+<!--[if IEMobile]>  <meta http-equiv="cleartype" content="on">  <![endif]-->
+
+<!-- Bootstrap -->
+<link href="_include/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Main Style -->
+<link href="_include/css/main.css" rel="stylesheet">
+
+<!-- Supersized -->
+<link href="_include/css/supersized.css" rel="stylesheet">
+<link href="_include/css/supersized.shutter.css" rel="stylesheet">
+
+<!-- FancyBox -->
+<link href="_include/css/jquery.fancybox.min.css" rel="stylesheet">
+
+<!-- Font Icons -->
+<link href="_include/css/fonts.css" rel="stylesheet">
+
+<!-- Shortcodes -->
+<link href="_include/css/shortcodes.css" rel="stylesheet">
+
+<!-- Responsive -->
+<link href="_include/css/bootstrap-responsive.min.css" rel="stylesheet">
+<link href="_include/css/responsive.css" rel="stylesheet">
+
+<!-- Supersized -->
+<link href="_include/css/supersized.css" rel="stylesheet">
+<link href="_include/css/supersized.shutter.css" rel="stylesheet">
+
+<!-- Google Font -->
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900' rel='stylesheet' type='text/css'>
+
+<!-- Fav Icon -->
+<link rel="shortcut icon" href="favicon.ico">
+
+<link rel="apple-touch-icon" href="fav_apple.png">
+<link rel="apple-touch-icon" sizes="114x114" href="fav_apple.png">
+<link rel="apple-touch-icon" sizes="72x72" href="fav_apple.png">
+<link rel="apple-touch-icon" sizes="144x144" href="fav_apple.png">
+
+<!-- Modernizr -->
+<script src="_include/js/modernizr.js"></script>
+
+<!-- Analytics -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'Insert Your Code']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- End Analytics -->
+
+</head>
+
+
+<body>
+
+<!-- This section is for Splash Screen -->
+<div class="ole">
+<section id="jSplash">
+	<div id="circle"></div>
+</section>
+</div>
+<!-- End of Splash Screen -->
+
+<!-- Homepage Slider -->
+<div id="home-slider">	
+    <div class="overlay"></div>
+
+    <div class="slider-text">
+    	<div id="slidecaption"></div>
+    </div>   
+	
+	<div class="control-nav">
+        <a id="prevslide" class="load-item"><i class="font-icon-arrow-simple-left"></i></a>
+        <a id="nextslide" class="load-item"><i class="font-icon-arrow-simple-right"></i></a>
+        <ul id="slide-list"></ul>
+        
+        <a id="nextsection" href="#work"><i class="font-icon-arrow-simple-down"></i></a>
+    </div>
+</div>
+<!-- End Homepage Slider -->
+
+<!-- Header -->
+<header>
+    <div class="sticky-nav">
+    	<a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
+        
+        <div id="logo">
+        	<a id="goUp" href="#home-slider" title="Brushed | Responsive One Page Template">Brushed Template</a>
+        </div>
+        
+        <nav id="menu">
+        	<ul id="menu-nav">
+            	<li class="current"><a href="#home-slider">Main</a></li>
+                <li><a href="#work">Portfolio</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#contact">Contacts</a></li>
+            </ul>
+        </nav>
+        
+		</div>
+</header>
+<!-- End Header -->
+
+<!-- Our Work Section -->
+<div id="work" class="page">
+	<div class="container">
+    	<!-- Title Page -->
+        <div class="row">
+            <div class="span12">
+                <div class="title-page">
+                    <h2 class="title">Portfolio</h2>
+                    <h3 class="title-description">Look at my work</h3>
+                </div>
+            </div>
+        </div>
+        <!-- End Title Page -->
+        
+        <!-- Portfolio Projects -->
+        <div class="row">
+        	<div class="span3">
+            	<!-- Filter -->
+                <nav id="options" class="work-nav">
+                    <ul id="filters" class="option-set" data-option-key="filter">
+                    	<li class="type-work">Works Categories</li>
+                        <li><a href="#filter" data-option-value="*" class="selected">All projects</a></li>
+                        <li><a href="#filter" data-option-value=".shop">Shops</a></li>
+                        <li><a href="#filter" data-option-value=".landing">Landing Page</a></li>
+                        <li><a href="#filter" data-option-value=".catalog">Catalog</a></li>
+						<li><a href="#filter" data-option-value=".blog">Portals</a></li>
+						<li><a href="#filter" data-option-value=".program">Applications</a></li>
+                    </ul>
+                </nav>
+                <!-- End Filter -->
+            </div>
+            
+            <div class="span9">
+            	<div class="row">
+                	<section id="projects">
+                    	<ul id="thumbs">
+                      
+                        	<li class="item-thumbs span3 catalog">
+                            	<a data-fancybox="group" data-caption="The website for the provision of construction services made on CMF Modx Revolution - there are various slides, maps, google,feedback form, with their labels and pop-UPS; the site is made so that all fields can be replaced without using the code.<a class='global' href='http://timberstyle.ru'>http://timberstyle.ru</a>" class="hover-wrap fancybox" data-fancybox-group="gallery" href="_include/img/work/full/1.jpg">
+                                	<span class="overlay-img"></span>
+									<span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/1.jpg" alt="">
+                            </li>
+                            
+                        	<li class="item-thumbs span3 shop">
+                            	<a data-fancybox="group"  data-caption="Internet shop of children's toys and services for kids + news blog, the site is made on CMF Modx Revolution - there are various slides, maps, google,feedback form, with their labels and pop-UPS; the site is made so that all fields can be replaced without using code, it is vozmognosti to leave comments, subscribe to news, setting cloud tag, and works as a dynamic output resources of the site from the top. <a class='global' href='http://babykey.pro/'>babykey.pro</a>" class="hover-wrap fancybox" data-fancybox-group="gallery"  href="_include/img/work/full/2.png">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/2.jpg">
+                            </li>
+							
+							<li class="item-thumbs span3 blog">
+                            	<a data-fancybox="group"  data-caption="Shop, forum, news blog - diagnostic equipment, the site made on Modx Revolution CMF - there are various slides, maps, google,feedback form, with their labels and pop-UPS; the site is made so that all fields can be replaced without using code. <a class='global' href='https://tecel.ru/'>tecel.ru</a>" class="hover-wrap fancybox" data-fancybox-group="gallery"  href="_include/img/work/full/3.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/3.jpg">
+                            </li>
+							
+							<li class="item-thumbs span3 blog">
+                            	<a data-fancybox="group"  data-caption="Catalog of services for vehicle owners, made on Modx Revo, fully responsive design. <a class='global' href='http://omgsak55.ru/'>omgsak55.ru</a>" class="hover-wrap fancybox" data-fancybox-group="gallery"  href="_include/img/work/full/omgsak.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/omgsak_thumb.jpg">
+                            </li>
+							
+							<li class="item-thumbs span3 shop">
+                            	<a data-fancybox="group"  data-caption="Online store and blog products made of aluminum website made on CMF Modx Revolution-there are various slides, yandex maps, feedback forms, with their labels and pop-UPS, admin made so that all fields can be replaced without the use of code. <a class='global' href='http://www.студиопак.рф'>www.студиопак.рф</a>" class="hover-wrap fancybox" data-fancybox-group="gallery"  href="_include/img/work/full/4.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/4.jpg">
+                            </li>
+							
+							<li class="item-thumbs span3 landing">
+                            	<a data-fancybox="group"  data-caption="The website for the sale of suspended ceilings, site made in the CMF Modx Revolution. <a class='global' href='http://gabarit24.ru/'>gabarit24.ru</a>" class="hover-wrap fancybox" data-fancybox-group="gallery"  href="_include/img/work/full/6.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/6.jpg">
+                            </li>
+							
+							<li class="item-thumbs span3 shop">
+                            	<a data-fancybox="group"  data-caption="Online shop selling welding equipment Site made on Modx CMF, product filter works on Ajax technology, a newsletter, forms, callback, user authentication. <a class='global' href='http://svarteh.kz/'>svarteh.kz/</a>" class="hover-wrap fancybox" data-fancybox-group="gallery"  href="_include/img/work/full/7.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/7.jpg">
+                            </li>
+							
+							<li class="item-thumbs span3 blog">
+                            	<a data-fancybox="group"  data-caption="Site agriculture the site is made on CMF Modx all controlled by user friendly admin panel the site is fully adapted for different screen resolutions. <a class='global' href='http://niizerna.kz/'>niizerna.kz</a>" class="hover-wrap fancybox" data-fancybox-group="gallery"  href="_include/img/work/full/8.png">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/8.jpg">
+                            </li>
+							
+							<li class="item-thumbs span3 landing">
+                            	<a data-fancybox="group"  data-caption="Landing Page travel Agency Site is made in PhP and JScript scripts is loading from the resources of the site Modx. <a class='global' href='http://thailand.global-tur.com/'>thailand.global-tur.com</a>" class="hover-wrap fancybox" data-fancybox-group="gallery"  href="_include/img/work/full/11.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/11.jpg">
+                            </li>
+							
+							<li class="item-thumbs span3 landing">
+                            	<a data-fancybox="group"  data-caption="Website for the sale of Concrete in Khimki the site was made using the website Builder Modx. <a class='global' href='http://www.betonvkhimkah.ru/'>www.betonvkhimkah.ru</a>" class="hover-wrap fancybox" data-fancybox-group="gallery"  href="_include/img/work/full/12.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/12.jpg">
+                            </li>
+							
+							 <li class="item-thumbs span3 shop">
+                            	<a data-fancybox="group"  data-caption="Online flower shop site made on Modx CMF all controlled by user friendly admin panel, the site is filled with a variety of filters to search and order creation. <a class='global' href='http://www.dari-cvety.com/'>www.dari-cvety.com</a>" class="hover-wrap fancybox" data-fancybox-group="gallery"  href="_include/img/work/full/15.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/15.jpg">
+                            </li>
+							
+							<li class="item-thumbs span3 shop">
+                            	<a data-fancybox="group"  data-caption="Online store course and thesis download or buy thesis, term paper site is made on the old version of Joomla 2.5. <a class='global' href='http://old.diplomatoff.ru/'>old.diplomatoff.ru</a>" class="hover-wrap fancybox" data-fancybox-group="gallery"  href="_include/img/work/full/17.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/17.jpg">
+                            </li>
+							
+							<li class="item-thumbs span3 landing">
+                            	<a data-fancybox="group"  data-caption="One-page metal Omsk one-page website with feedback forms, used rubber layout. <a class='global' href='http://by-tehnika.ru/'>by-tehnika.ru</a>" class="hover-wrap fancybox" data-fancybox-group="gallery"  href="_include/img/work/full/20.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/20.jpg">
+                            </li>
+							
+ 							<li class="item-thumbs span3 shop">
+                            	<a data-fancybox="group"  data-caption="Online store trailers with feedback forms, filters, articles, made on CMF Modx. <a class='global' href='https://pricepi.ru/'>pricepi.ru</a>" class="hover-wrap fancybox" data-fancybox-group="gallery"  href="_include/img/work/full/23.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/23_small.jpg">
+                            </li>
+							
+							<!--<li class="item-thumbs span3 landing">
+                            	<a data-fancybox="group"  data-caption="Landig Page по услугам копки колодцев и бурения скважин, сделан на CMF Modx. <a class='global' href='http://xn--55-1lcqjn.xn--p1ai/'>крот55.рф</a>" class="hover-wrap fancybox" data-fancybox-group="gallery"  href="_include/img/work/full/24.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/24_small.jpg">
+                            </li>-->
+							
+							<li class="item-thumbs span3 shop">
+                            	<a data-fancybox="group"  data-caption="Adaptive equipment shop supply is made on Opencart 1.5, developed a template + modules, supports 1C, the same script analogues of the product.<a class='global' href='http://kratos55.ru/'>http://kratos55.ru/</a>" class="hover-wrap fancybox" data-fancybox-group="gallery"  href="_include/img/work/full/25.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/25.jpg">
+                            </li>
+							
+							<li class="item-thumbs span3 shop">
+                            	<a data-fancybox="group"  data-caption="Adaptive shop equipment for cars made on Opencart 2.0, developed its own template + modules, implemented support for the import of goods from the unloading of 1C (CSV files).<a class='global' href='http://tools55.ru/'>http://tools55.ru/</a>" class="hover-wrap fancybox" data-fancybox-group="gallery"  href="_include/img/work/full/26.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/26.png">
+                            </li>
+							
+							<li class="item-thumbs span3 catalog">
+                            	<a data-fancybox="group"  data-caption="The website - catalog is made for Joomla 3 <a class='global' href='http://ava-company.com'>http://ava-company.com</a>" class="hover-wrap fancybox" data-fancybox-group="gallery"  href="_include/img/work/full/ava-company.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/ava-company_thumb.png">
+                            </li>
+							
+							<li class="item-thumbs span3 shop">
+                            	<a data-fancybox="group"  data-caption="Adaptive plumbing shop on Opencart 2.0, implemented support for the import of goods from the unloading 1C (XML files).<a class='global' href='http://sb-omsk.ru/'>http://sb-omsk.ru/</a>" class="hover-wrap fancybox" data-fancybox-group="gallery"  href="_include/img/work/full/sb-omsk.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/sb-omsk_thumb.png">
+                            </li>
+							
+							<li class="item-thumbs span3 blog">
+                            	<a data-fancybox="group"  data-caption="Website-portal health resort in Kazakhstan, made 2 version Desktop and mobile, the site is made on CMS Modx Evolution  <a class='global' href='http://ds2.kz/'>http://ds2.kz/</a>" class="hover-wrap fancybox" data-fancybox-group="gallery"  href="_include/img/work/full/ds2.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/ds2_thumb.png">
+                            </li>
+							
+							<li class="item-thumbs span3 catalog">
+                            	<a data-fancybox="group"  data-caption="Fully responsive website catalog is made for Joomla 3 + Joomshoping 4, the implementation of import of goods from the online price (the XML files), feedback forms with validation on the captcha, the ability to manually edit goods, without unloading, the implementation of photo galleries to the card product anywhere on the website. Pattern laid out and integrated from Psd layout. Settings are also created in the template to display contact information. <a class='global' href='http://s-oborud.ru/'>http://s-oborud.ru/</a>" class="hover-wrap fancybox" data-fancybox-group="gallery"  href="_include/img/work/full/spec.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/spec_thumb.png">
+                            </li>
+							
+							<li class="item-thumbs span3 shop">
+                            	<a data-fancybox="group"  data-caption="Store sex products made on Opencart 2.3, the implementation of a simplified order form(shopping cart + checkout), the implementation of import and export of goods from CSV files, adding avatars to the recall, and more <a class='global' href='http://pwdpoppers.ru/'>http://pwdpoppers.ru/</a>" class="hover-wrap fancybox" data-fancybox-group="gallery"  href="_include/img/work/full/popers.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/popers.png">
+                            </li>
+							
+							<li class="item-thumbs span3 program">
+                            	<a data-fancybox="group"  data-caption="Adaptive calculator for calculating the cost of technical works in the showroom <a class='global' href='http://germanika55.ru/TO/index.html'>http://germanika55.ru/</a>" class="hover-wrap fancybox" data-fancybox-group="gallery"  href="_include/img/work/full/ger.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/ger.png">
+                            </li>
+							
+							<li class="item-thumbs span3 landing">
+                            	<a data-fancybox="group"  data-caption="Adaptive website slider (Full HD), made on the basis of FullPage plugin.js, the site itself is assembled on CMF Modx Revolution, adaptability was selected not only by the width of the screen but also depending on the height.<a class='global' href='http://group-at.com'>http://group-at.com</a>" class="hover-wrap fancybox" data-fancybox-group="gallery"  href="_include/img/work/full/alt.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/alt_thumb.png">
+                            </li>
+                            
+							<li class="item-thumbs span3 landing">
+                            	<a data-fancybox="group"  data-caption="Responsive website Landing Page of a furniture factory created in MOdx Revolution.<a class='global' href='http://буратино-омск.рф'>http://буратино-омск.рф</a>" class="hover-wrap fancybox" data-fancybox-group="gallery"  href="_include/img/work/full/cuhni.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/cuhni_thumb.jpg">
+                            </li>
+							
+							<li class="item-thumbs span3 landing">
+                            	<a data-fancybox="group"  data-caption="Adaptive multilingual site Landing Page, dedicated to financial services of a foreign company made on MOdx Revolution.<a class='global' href='http://finacon24.de/'>http://finacon24.de/</a>" class="hover-wrap fancybox" data-fancybox-group="gallery"  href="_include/img/work/full/fin.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/fin_thumb.jpg">
+                            </li>
+							
+							<li class="item-thumbs span3 program">
+								<a data-fancybox="group"  data-caption="Application for group Dating Vk.com, created a mobile and desktop version, works using the VK Api, created a separate admin panel for administrators, login to the admin area is carried out as well using the api, which limits hacking applications.<a class='global' href='https://vk.com/app6056073_182925727'>https://vk.com/app6056073_182925727</a> mobile version <a class='global' href='https://m.vk.com/app6056073_182925727?act=app_r'>https://m.vk.com/app6056073_182925727?act=app_r</a>" class="hover-wrap fancybox" data-fancybox-group="gallery"  href="_include/img/work/full/vk_full.png">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/vk_thumb.png">
+                            </li>
+							
+                        </ul>
+                    </section>
+                    
+            	</div>
+            </div>
+        </div>
+        <!-- End Portfolio Projects -->
+    </div>
+</div>
+<!-- End Our Work Section -->
+
+<!-- About Section -->
+<div id="about" class="page-alternate">
+<div class="container">
+    <!-- Title Page -->
+    <div class="row">
+        <div class="span12">
+            <div class="title-page">
+                <h2 class="title">About me</h2>
+                <h3 class="title-description">Some General information.</h3>
+            </div>
+        </div>
+    </div>
+    <!-- End Title Page -->
+    
+    <!-- People -->
+    <div class="row">
+    	
+        <!-- Start Profile -->
+    	<div class="span4 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">adaptive + responsive</span>
+                </div>
+                <img src="_include/img/profile/adap.jpg" alt="adaptive + responsive">
+            </div>
+            <h3 class="profile-name">Responsive design</h3>
+            <p class="profile-description">Inspired by the changes that occur with the ranking algorithms, and the General tendency to increase the share of smartphones and other mobile devices, I always set a task to make a version for mobile devices.</p>
+            	
+            <div class="social">
+            </div>
+        </div>
+        <!-- End Profile -->
+        
+        <!-- Start Profile -->
+    	<div class="span4 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">Full Stack Developer</span>
+                </div>
+                <img src="_include/img/profile/my.jpg" alt="Full Stack Developer">
+            </div>
+            <h3 class="profile-name">Alexandr</h3>
+            <p class="profile-description">I am a Full Stack developer of websites and web applications. Do all qualitatively and in time. Guarantee for each project + support.</p>
+            	
+            <div class="social">
+            	<ul class="social-icons">
+                	<li><a href="https://vk.com/sashazotov1"><i class="font-icon-social-blogger"></i></a></li>
+                    <li><a href="https://my.mail.ru/mail/sashazotov1/"><i class="font-icon-social-email"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- End Profile -->
+        
+        <!-- Start Profile -->
+    	<div class="span4 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">New Web Technologies</span>
+                </div>
+                <img src="_include/img/profile/tech.jpg" alt="New Web Technologies">
+            </div>
+            <h3 class="profile-name">Only the most modern development tools</h3>
+            <p class="profile-description">The world of web site and application development technologies is constantly evolving. 
+ For marking I use of course <a href="https://www.w3.org/TR/html5" >HTML5</a>. For layout use the latest version <a href="http://getbootstrap.com" >Bootstrap 3</a> and <a href="http://www.wisdomweb.ru/CSS3/" >CSS3</a>
+ which allows you to make a gorgeous animation on the site and various effects for programming using <a href="http://php.net"> PhP</a> in conjunction with the library <a href="http://jquery.com" >Jquery</a>.
+ When you create a site with unusual functional use popular <a href="http://modx.ru/">Modx CMF</a> to generally <a href="https://www.opencart.com/">Opencart</a>. 
+ Any site or application is always done on time and efficiently, after the delivery of the project, you can always count on my support, if you have any questions.
+            <div class="social">
+            </div>
+        </div>
+        <!-- End Profile -->
+        
+    </div>
+    <!-- End People -->
+</div>
+</div>
+<!-- End About Section -->
+
+
+<!-- Contact Section -->
+<div id="contact" class="page">
+<div class="container">
+    <!-- Title Page -->
+    <div class="row">
+        <div class="span12">
+            <div class="title-page">
+                <h2 class="title">Leave a request</h2>
+                <h3 class="title-description">Use the feedback form to leave us your request.</h3>
+            </div>
+        </div>
+    </div>
+    <!-- End Title Page -->
+    
+    <!-- Contact Form -->
+    <div class="row">
+    	<div class="span9">
+        
+        	<form id="contact-form" class="contact-form" action="">
+            	<p class="contact-name">
+            		<input id="contact_name" type="text" placeholder="Enter a name" value="" name="name" />
+                </p>
+                <p class="contact-email">
+                	<input id="contact_email" type="text" placeholder="Enter Email" value="" name="email" />
+                </p>
+                <p class="contact-message">
+                	<textarea id="contact_message" placeholder="Enter message" name="message" rows="15" cols="40"></textarea>
+                </p>
+                <p class="contact-submit">
+                	<a id="contact-submit" type="submit" class="submit" >Leave a request</a>
+                </p>
+                
+                <div id="response">
+                
+                </div>
+            </form>
+         
+        </div>
+        
+        <div class="span3">
+        	<div class="contact-details">
+        		<h3>Contact details</h3>
+                <ul>
+                    <li><a href="mailto:zotovsasha90@gmail.com">zotovsasha90@gmail.com</a></li>
+                    <li>+7-908-798-17-29</li>
+                    <li>
+                        AlexZGroop
+                        <br>
+                        FullStack разработчик
+                        <br>
+                        vk.com/sashazotov1
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End Contact Form -->
+</div>
+</div>
+<!-- End Contact Section -->
+
+
+<!-- Socialize -->
+<div id="social-area" class="page">
+	<div class="container">
+    	<div class="row">
+            <div class="span12">
+                <nav id="social">
+                    <ul>
+						<li><a href="skype:a.zotov55" title="Skype" target="_blank"><span class="font-icon-social-skype"></span></a></li>
+						<li><a href="https://vk.com/sashazotov1" title="Vk" target="_blank"><span class="font-icon-social-blogger"></span></a></li>
+						<li><a href="https://my.mail.ru/mail/sashazotov1/" title="Vk" target="_blank"><span class="font-icon-social-email"></span></a></li>
+                        <li><a href="https://plus.google.com/u/0/101121673307350516648" title="Google Plus" target="_blank"><span class="font-icon-social-google-plus"></span></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Socialize -->
+
+<!-- Footer -->
+<footer>
+	<p class="credits">&copy;2018 <small class="down_sl">г.</small> <a href="/" title="http://work.diplomatoff.ru/">work.diplomatoff.ru</a> by AlexZGroop</p>
+</footer>
+<!-- End Footer -->
+
+<!-- Back To Top -->
+<a id="back-to-top" href="#">
+	<i class="font-icon-arrow-simple-up"></i>
+</a>
+<!-- End Back to Top -->
+
+
+<!-- Js -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> <!-- jQuery Core -->
+<script src="_include/js/jquery.fancybox.min.js"></script> <!-- Fancybox -->
+<script src="_include/js/bootstrap.min.js"></script> <!-- Bootstrap -->
+<script src="_include/js/supersized.3.2.7.min.js"></script> <!-- Slider -->
+<script src="_include/js/waypoints.js"></script> <!-- WayPoints -->
+<script src="_include/js/waypoints-sticky.js"></script> <!-- Waypoints for Header -->
+<script src="_include/js/jquery.isotope.js"></script> <!-- Isotope Filter -->
+<script src="_include/js/jquery.tweet.js"></script> <!-- Tweet -->
+<script src="_include/js/plugins.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
+<script src="_include/js/main_en.js"></script> <!-- Default JS -->
+<!-- End Js -->
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+				w.yaCounter44375749 = new Ya.Metrika({
+                    id:44375749,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true
+                });
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<div><img src="//mc.yandex.ru/watch/28238071" style="position:absolute; left:-9999px;" alt="" /></div>
+<!-- /Yandex.Metrika counter --> 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-59754249-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!--LiveInternet counter<script type="text/javascript">
+document.write("<a href='//www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t12.5;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet: показано число просмотров за 24"+
+" часа, посетителей за 24 часа и за сегодня' "+
+"border='0' width='88' height='31'><\/a>")
+</script>/LiveInternet-->
+<div style="height:31px;"></div>
+</body>
+</html>

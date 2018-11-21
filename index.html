@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if (IE 9)]><html class="no-js ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en-US"> <!--<![endif]-->
+<head>
+
+<!-- Meta Tags -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name='wmail-verification' content='18ec4ca31e131560474569b2a2a14b1b' />
+<title>Портфолио Александр Зотов | Full Stack Developer</title>   
+
+<meta name="description" content="Професиональная разработка сайтов и web приложений в городе Омск" /> 
+
+<META Name="Keywords" content="Заказать,дешево,купить,сайт,Омск,Modx,Php">
+<!-- Mobile Specifics -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="HandheldFriendly" content="true"/>
+<meta name="MobileOptimized" content="320"/>   
+
+<!-- Mobile Internet Explorer ClearType Technology -->
+<!--[if IEMobile]>  <meta http-equiv="cleartype" content="on">  <![endif]-->
+
+<!-- Bootstrap -->
+<link href="_include/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Main Style -->
+<link href="_include/css/main.css" rel="stylesheet">
+
+<!-- Supersized -->
+<link href="_include/css/supersized.css" rel="stylesheet">
+<link href="_include/css/supersized.shutter.css" rel="stylesheet">
+
+<!-- FancyBox -->
+<link href="_include/css/jquery.fancybox.min.css" rel="stylesheet">
+
+<!-- Font Icons -->
+<link href="_include/css/fonts.css" rel="stylesheet">
+
+<!-- Shortcodes -->
+<link href="_include/css/shortcodes.css" rel="stylesheet">
+
+<!-- Responsive -->
+<link href="_include/css/bootstrap-responsive.min.css" rel="stylesheet">
+<link href="_include/css/responsive.css" rel="stylesheet">
+
+<!-- Supersized -->
+<link href="_include/css/supersized.css" rel="stylesheet">
+<link href="_include/css/supersized.shutter.css" rel="stylesheet">
+
+<!-- Google Font -->
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900' rel='stylesheet' type='text/css'>
+
+<!-- Fav Icon -->
+<link rel="shortcut icon" href="favicon.ico">
+
+<link rel="apple-touch-icon" href="fav_apple.png">
+<link rel="apple-touch-icon" sizes="114x114" href="fav_apple.png">
+<link rel="apple-touch-icon" sizes="72x72" href="fav_apple.png">
+<link rel="apple-touch-icon" sizes="144x144" href="fav_apple.png">
+
+<!-- Modernizr -->
+<script src="_include/js/modernizr.js"></script>
+
+<!-- Analytics -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'Insert Your Code']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- End Analytics -->
+
+</head>
+
+
+<body>
+
+<!-- This section is for Splash Screen -->
+<div class="ole">
+<section id="jSplash">
+	<div id="circle"></div>
+</section>
+</div>
+<!-- End of Splash Screen -->
+
+<!-- Homepage Slider -->
+<div id="home-slider">	
+    <div class="overlay"></div>
+
+    <div class="slider-text">
+    	<div id="slidecaption"></div>
+    </div>   
+	
+	<div class="control-nav">
+        <a id="prevslide" class="load-item"><i class="font-icon-arrow-simple-left"></i></a>
+        <a id="nextslide" class="load-item"><i class="font-icon-arrow-simple-right"></i></a>
+        <ul id="slide-list"></ul>
+        
+        <a id="nextsection" href="#work"><i class="font-icon-arrow-simple-down"></i></a>
+    </div>
+</div>
+<!-- End Homepage Slider -->
+
+<!-- Header -->
+<header>
+    <div class="sticky-nav">
+    	<a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
+        
+        <div id="logo">
+        	<a id="goUp" href="#home-slider" title="Brushed | Responsive One Page Template">Brushed Template</a>
+        </div>
+        
+        <nav id="menu">
+        	<ul id="menu-nav">
+            	<li class="current"><a href="#home-slider">Главная</a></li>
+                <li><a href="#work">Портфолио</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+        
+		</div>
+</header>
+<!-- End Header -->
+
+<!-- Our Work Section -->
+<div id="work" class="page">
+	<div class="container">
+    	<!-- Title Page -->
+        <div class="row">
+            <div class="span12">
+                <div class="title-page">
+                    <h2 class="title">Портфолио</h2>
+                    <h3 class="title-description">Посмотрите наши работы</h3>
+                </div>
+            </div>
+        </div>
+        <!-- End Title Page -->
+        
+        <!-- Portfolio Projects -->
+        <div class="row">
+        	<div class="span3">
+            	<!-- Filter -->
+                <nav id="options" class="work-nav">
+                    <ul id="filters" class="option-set" data-option-key="filter">
+                    	<li class="type-work">Категории работ</li>
+                        <li><a href="#filter" data-option-value="*" class="selected">Все проекты</a></li>
+                        <li><a href="#filter" data-option-value=".shop">Магазины</a></li>
+                        <li><a href="#filter" data-option-value=".landing">Landing Page</a></li>
+                        <li><a href="#filter" data-option-value=".catalog">Каталоги</a></li>
+						<li><a href="#filter" data-option-value=".blog">Порталы</a></li>
+						<li><a href="#filter" data-option-value=".program">Приложения</a></li>
+                    </ul>
+                </nav>
+                <!-- End Filter -->
+            </div>
+            
+            <div class="span9">
+            	<div class="row">
+                	<section id="projects">
+                    	<ul id="thumbs">
+                      
+                        	<li class="item-thumbs span3 catalog">
+                            	<a data-fancybox="group" data-caption="Сайт по оказанию строительных услуг, сделанный на CMF Modx Revolution - имеются различные слайды, карты google и yandex,формы обратной связи, со своими метками и всплывающими окнами, админка сделана так что все поля можно заменять без использовании кода. <a class='global' href='http://timberstyle.ru'>http://timberstyle.ru</a>" class="hover-wrap fancybox" data-fancybox-group="gallery" href="_include/img/work/full/1.jpg">
+                                	<span class="overlay-img"></span>
+									<span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/1.jpg" alt="">
+                            </li>
+                            
+                        	<li class="item-thumbs span3 shop">
+                            	<a data-fancybox="group"  data-caption="Интернет магазин детских игрушек и услуг для детей + новостной блог, сайт сделанный на CMF Modx Revolution - имеются различные слайды, карты google и yandex,формы обратной связи, со своими метками и всплывающими окнами, админка сделана так что все поля можно заменять без использовании кода, имеется возмоэность оставлять коментарии, подписываться на новости, настройка облаков тега, а так же работает динамических вывод ресурсов сайта из топа. <a class='global' href='http://babykey.pro/'>babykey.pro</a>" class="hover-wrap fancybox" data-fancybox-group="gallery"  href="_include/img/work/full/2.png">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/2.jpg">
+                            </li>
+							
+							<li class="item-thumbs span3 blog">
+                            	<a data-fancybox="group"  data-caption="Магазин, форум, новостной блог - диагностического оборудования, сайт сделанный на CMF Modx Revolution - имеются различные слайды, карты google и yandex,формы обратной связи, со своими метками и всплывающими окнами, админка сделана так что все поля можно заменять без использовании кода. <a class='global' href='https://tecel.ru/'>tecel.ru</a>" class="hover-wrap fancybox" data-fancybox-group="gallery"  href="_include/img/work/full/3.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/3.jpg">
+                            </li>
+							
+							<li class="item-thumbs span3 blog">
+                            	<a data-fancybox="group"  data-caption="Каталог услуг для владельцев автотранспорта, сделанный на Modx Revo, полностью адаптивный дизайн. <a class='global' href='http://omgsak55.ru/'>omgsak55.ru</a>" class="hover-wrap fancybox" data-fancybox-group="gallery"  href="_include/img/work/full/omgsak.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/omgsak_thumb.jpg">
+                            </li>
+							
+							<li class="item-thumbs span3 shop">
+                            	<a data-fancybox="group"  data-caption="Интернет магазин и блог продукции из алюминия сайт сделанный на CMF Modx Revolution - имеются различные слайды, карты  yandex,формы обратной связи, со своими метками и всплывающими окнами, админка сделана так что все поля можно заменять без использовании кода. <a class='global' href='http://www.студиопак.рф'>www.студиопак.рф</a>" class="hover-wrap fancybox" data-fancybox-group="gallery"  href="_include/img/work/full/4.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/4.jpg">
+                            </li>
+							
+							<li class="item-thumbs span3 landing">
+                            	<a data-fancybox="group"  data-caption="Сайт по продажи натяжных потолков, сайт сделанный на CMF Modx Revolution. <a class='global' href='http://gabarit24.ru/'>gabarit24.ru</a>" class="hover-wrap fancybox" data-fancybox-group="gallery"  href="_include/img/work/full/6.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/6.jpg">
+                            </li>
+							
+							<li class="item-thumbs span3 shop">
+                            	<a data-fancybox="group"  data-caption="Интернет - магазин по продаже сварочного оборудования Сайт сделан на CMF Modx, фильтр товаров работает по технологии Ajax, работает рассылка, формы обратного звонка, авторизация пользователей. <a class='global' href='http://svarteh.kz/'>svarteh.kz/</a>" class="hover-wrap fancybox" data-fancybox-group="gallery"  href="_include/img/work/full/7.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/7.jpg">
+                            </li>
+							
+							<li class="item-thumbs span3 blog">
+                            	<a data-fancybox="group"  data-caption="Сайт сельского хозяйства сайт сделан на CMF Modx все управляется удобной админ панелью сайт полностью адаптирован под разные разрешения экрана. <a class='global' href='http://niizerna.kz/'>niizerna.kz</a>" class="hover-wrap fancybox" data-fancybox-group="gallery"  href="_include/img/work/full/8.png">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/8.jpg">
+                            </li>
+							
+							<li class="item-thumbs span3 landing">
+                            	<a data-fancybox="group"  data-caption="Landing Page туристического агенства Сайт сделан на PhP и скриптов JScript идет подгрузка из ресурсов сайта Modx. <a class='global' href='http://thailand.global-tur.com/'>thailand.global-tur.com</a>" class="hover-wrap fancybox" data-fancybox-group="gallery"  href="_include/img/work/full/11.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/11.jpg">
+                            </li>
+							
+							<li class="item-thumbs span3 landing">
+                            	<a data-fancybox="group"  data-caption="Сайт по продажи Бетона в Химках сайт сделан с помощью конструктора сайтов Modx. <a class='global' href='http://www.betonvkhimkah.ru/'>www.betonvkhimkah.ru</a>" class="hover-wrap fancybox" data-fancybox-group="gallery"  href="_include/img/work/full/12.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/12.jpg">
+                            </li>
+							
+							 <li class="item-thumbs span3 shop">
+                            	<a data-fancybox="group"  data-caption="Интернет магазин по продаже цветов сайт сделан на  CMF Modx все управляется удобной админ панелью сайт наполнен различными фильтрами для поиска и создания заказа. <a class='global' href='http://www.dari-cvety.com/'>www.dari-cvety.com</a>" class="hover-wrap fancybox" data-fancybox-group="gallery"  href="_include/img/work/full/15.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/15.jpg">
+                            </li>
+							
+							<li class="item-thumbs span3 shop">
+                            	<a data-fancybox="group"  data-caption="Интернет магазин курсовых и дипломных работ скачать или купить дипломную, курсовую работу сайт сделан на старой версии Joomla 2.5. <a class='global' href='http://old.diplomatoff.ru/'>old.diplomatoff.ru</a>" class="hover-wrap fancybox" data-fancybox-group="gallery"  href="_include/img/work/full/17.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/17.jpg">
+                            </li>
+							
+							<li class="item-thumbs span3 landing">
+                            	<a data-fancybox="group"  data-caption="Одностраничник МеталОмск одностраничный сайт с формами обратной связи , использована резиновая верстка. <a class='global' href='http://by-tehnika.ru/'>by-tehnika.ru</a>" class="hover-wrap fancybox" data-fancybox-group="gallery"  href="_include/img/work/full/20.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/20.jpg">
+                            </li>
+							
+ 							<li class="item-thumbs span3 shop">
+                            	<a data-fancybox="group"  data-caption="Онлайн магазин прицепов с формами обратной связи, фильтрами, статьями, сделан на CMF Modx. <a class='global' href='https://pricepi.ru/'>pricepi.ru</a>" class="hover-wrap fancybox" data-fancybox-group="gallery"  href="_include/img/work/full/23.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/23_small.jpg">
+                            </li>
+							
+							<!--<li class="item-thumbs span3 landing">
+                            	<a data-fancybox="group"  data-caption="Landig Page по услугам копки колодцев и бурения скважин, сделан на CMF Modx. <a class='global' href='http://xn--55-1lcqjn.xn--p1ai/'>крот55.рф</a>" class="hover-wrap fancybox" data-fancybox-group="gallery"  href="_include/img/work/full/24.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/24_small.jpg">
+                            </li>-->
+							
+							<li class="item-thumbs span3 shop">
+                            	<a data-fancybox="group"  data-caption="Адаптивный магазин оборудования для водоснабжения сделанный на Opencart 1.5, разработан свой шаблон + модули, реализована поддержка с 1С, так же скрипт аналогов товара.<a class='global' href='http://kratos55.ru/'>http://kratos55.ru/</a>" class="hover-wrap fancybox" data-fancybox-group="gallery"  href="_include/img/work/full/25.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/25.jpg">
+                            </li>
+							
+							<li class="item-thumbs span3 shop">
+                            	<a data-fancybox="group"  data-caption="Адаптивный магазин оборудования для автомобилей сделанный на Opencart 2.0, разработан свой шаблон + модули, реализована поддержка импорта товаров из выгрузки 1С (CSV файлы).<a class='global' href='http://tools55.ru/'>http://tools55.ru/</a>" class="hover-wrap fancybox" data-fancybox-group="gallery"  href="_include/img/work/full/26.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/26.png">
+                            </li>
+							
+							<li class="item-thumbs span3 catalog">
+                            	<a data-fancybox="group"  data-caption="Сайт - каталог сделанный на Joomla 3 <a class='global' href='http://ava-company.com'>http://ava-company.com</a>" class="hover-wrap fancybox" data-fancybox-group="gallery"  href="_include/img/work/full/ava-company.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/ava-company_thumb.png">
+                            </li>
+							
+							<li class="item-thumbs span3 shop">
+                            	<a data-fancybox="group"  data-caption="Адаптивный магазин сантехники на Opencart 2.0, реализована поддержка импорта товаров из выгрузки 1С (XML файлы).<a class='global' href='http://sb-omsk.ru/'>http://sb-omsk.ru/</a>" class="hover-wrap fancybox" data-fancybox-group="gallery"  href="_include/img/work/full/sb-omsk.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/sb-omsk_thumb.png">
+                            </li>
+							
+							<li class="item-thumbs span3 blog">
+                            	<a data-fancybox="group"  data-caption="Сайт - портал санатория в Казахстане, сделано 2 версия Desktop и mobile, сайт сделан на CMS Modx Evolution  <a class='global' href='http://ds2.kz/'>http://ds2.kz/</a>" class="hover-wrap fancybox" data-fancybox-group="gallery"  href="_include/img/work/full/ds2.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/ds2_thumb.png">
+                            </li>
+							
+							<li class="item-thumbs span3 catalog">
+                            	<a data-fancybox="group"  data-caption="Полностью адаптивный сайт каталог сделанный на Joomla 3 + Joomshoping 4, реализация импорта товаров из онлайн прайса (XML файлов), формы обратной связи с проверкой по капчи, возможность ручного редактирования товаров, не влияя на выгрузку, реализация фото-галлерей к карточкам товара в любом месте сайта. Шаблон сверстан и интегрирован из Psd макета. Так же созданы настройки в шаблоне для отображения контактной информации. <a class='global' href='http://s-oborud.ru/'>http://s-oborud.ru/</a>" class="hover-wrap fancybox" data-fancybox-group="gallery"  href="_include/img/work/full/spec.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/spec_thumb.png">
+                            </li>
+							
+							<li class="item-thumbs span3 shop">
+                            	<a data-fancybox="group"  data-caption="Магазин интим товаров сделанный на Opencart 2.3, реализация упращенной формы заказа(корзина + оформление заказа), реализация импорта и экспорта товаров из CSV файлов, добавление аватарок к отзывом и многое другое <a class='global' href='http://pwdpoppers.ru/'>http://pwdpoppers.ru/</a>" class="hover-wrap fancybox" data-fancybox-group="gallery"  href="_include/img/work/full/popers.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/popers.png">
+                            </li>
+							
+							<li class="item-thumbs span3 program">
+                            	<a data-fancybox="group"  data-caption="Адаптивный калькулятор для расчета стоимости технических работ в автосалоне <a class='global' href='http://germanika55.ru/TO/index.html'>http://germanika55.ru/</a>" class="hover-wrap fancybox" data-fancybox-group="gallery"  href="_include/img/work/full/ger.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/ger.png">
+                            </li>
+							
+							<li class="item-thumbs span3 landing">
+                            	<a data-fancybox="group"  data-caption="Адаптивный сайт - слайдер (FullHD), сделанный на основе плагина FullPage.js, сам сайт собран на CMF Modx Revolution, адаптивность подбиралась не только по ширине экрана но и в зависимости от высоты.<a class='global' href='http://group-at.com'>http://group-at.com</a>" class="hover-wrap fancybox" data-fancybox-group="gallery"  href="_include/img/work/full/alt.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/alt_thumb.png">
+                            </li>
+                            
+							<li class="item-thumbs span3 landing">
+                            	<a data-fancybox="group"  data-caption="Адаптивный сайт Landing Page мебельной фабрики создан на MOdx Revolution.<a class='global' href='http://буратино-омск.рф'>http://буратино-омск.рф</a>" class="hover-wrap fancybox" data-fancybox-group="gallery"  href="_include/img/work/full/cuhni.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/cuhni_thumb.jpg">
+                            </li>
+							
+							<li class="item-thumbs span3 landing">
+                            	<a data-fancybox="group"  data-caption="Адаптивный мультиязычный сайт Landing Page, посвященный финансовым услугам зарубежной компании сделанный на MOdx Revolution.<a class='global' href='http://finacon24.de/'>http://finacon24.de/</a>" class="hover-wrap fancybox" data-fancybox-group="gallery"  href="_include/img/work/full/fin.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/fin_thumb.jpg">
+                            </li>
+							
+							<li class="item-thumbs span3 program">
+								<a data-fancybox="group"  data-caption="Приложение для группы знакомств вконтакте, создана мобильная и десктопная версия, работает с использованием Api vk, создана отдельная админ панель для администраторов, вход в админку осуществляется так же с помощью api, что ограничивает взлом приложения.<a class='global' href='https://vk.com/app6056073_182925727'>https://vk.com/app6056073_182925727</a> мобильная версия <a class='global' href='https://m.vk.com/app6056073_182925727?act=app_r'>https://m.vk.com/app6056073_182925727?act=app_r</a>" class="hover-wrap fancybox" data-fancybox-group="gallery"  href="_include/img/work/full/vk_full.png">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/vk_thumb.png">
+                            </li>
+							
+							<li class="item-thumbs span3 catalog">
+                            	<a data-fancybox="group"  data-caption="Полностью адаптивный сайт - каталог сделанный на Modx Revo 2.6, форма обратной связи, необычный дизайн, админка с журналируемым списком заявок <a class='global' href='http://xn----7sbxaicccofp1b.xn--p1ai/'>клиника-омск.рф</a>" class="hover-wrap fancybox" data-fancybox-group="gallery"  href="_include/img/work/full/clinic.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/clinic_thumb.png">
+                            </li>
+							
+							<li class="item-thumbs span3 landing">
+                            	<a data-fancybox="group"  data-caption="Адаптивный сайт Landing Page, посвященный рыбалке.<a class='global' href='http://frsomsk.ru/'>http://frsomsk.ru/</a>" class="hover-wrap fancybox" data-fancybox-group="gallery"  href="_include/img/work/full/fish.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/fish_thumb.jpg">
+                            </li>
+							
+							<li class="item-thumbs span3 catalog">
+                            	<a data-fancybox="group"  data-caption="Полностью адаптивный сайт - каталог сделанный на Modx Revo 2.6, форма обратной связи, необычный дизайн, админка с журналируемым списком заявок <a class='global' href='http://kcson-nizhomka.ru/'>http://kcson-nizhomka.ru/</a>" class="hover-wrap fancybox" data-fancybox-group="gallery"  href="_include/img/work/full/krson.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-eye"></span>
+                                </a>
+                                <img src="_include/img/work/thumbs/krson_thumb.jpg">
+                            </li>
+							
+                        </ul>
+                    </section>
+                    
+            	</div>
+            </div>
+        </div>
+        <!-- End Portfolio Projects -->
+    </div>
+</div>
+<!-- End Our Work Section -->
+
+<!-- About Section -->
+<div id="about" class="page-alternate">
+<div class="container">
+    <!-- Title Page -->
+    <div class="row">
+        <div class="span12">
+            <div class="title-page">
+                <h2 class="title">Обо мне</h2>
+                <h3 class="title-description">Немного общей информации.</h3>
+            </div>
+        </div>
+    </div>
+    <!-- End Title Page -->
+    
+    <!-- People -->
+    <div class="row">
+    	
+        <!-- Start Profile -->
+    	<div class="span4 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">adaptive + responsive</span>
+                </div>
+                <img src="_include/img/profile/adap.jpg" alt="adaptive + responsive">
+            </div>
+            <h3 class="profile-name">Адаптивный дизайн</h3>
+            <p class="profile-description">Вдохновленные изменениями, которые происходят с алгоритмами ранжирования, и всеобщей тенденцией к увеличению доли смартфонов и других мобильных устройств, я всегда задаюсь задачей, делать версию под мобильные устройства.</p>
+            	
+            <div class="social">
+            </div>
+        </div>
+        <!-- End Profile -->
+        
+        <!-- Start Profile -->
+    	<div class="span4 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">Full Stack Developer</span>
+                </div>
+                <img src="_include/img/profile/my.jpg" alt="Full Stack Developer">
+            </div>
+            <h3 class="profile-name">Александр</h3>
+            <p class="profile-description">Являюсь Full Stack разработчиком сайтов и web приложений. Делаю все качественно и в срок. Гарантия на каждый проект + поддержка.</p>
+            	
+            <div class="social">
+            	<ul class="social-icons">
+                	<li><a href="https://vk.com/sashazotov1"><i class="font-icon-social-blogger"></i></a></li>
+                    <li><a href="https://my.mail.ru/mail/sashazotov1/"><i class="font-icon-social-email"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- End Profile -->
+        
+        <!-- Start Profile -->
+    	<div class="span4 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">New Web Technologies</span>
+                </div>
+                <img src="_include/img/profile/tech.jpg" alt="New Web Technologies">
+            </div>
+            <h3 class="profile-name">Только самые современные средства разработки</h3>
+            <p class="profile-description">Мир технологий разработки Web сайтов и приложений постоянно развивается. 
+			Для разметки использую конечно же <a href="https://www.w3.org/TR/html5/">HTML5</a>. Для верстки использую последнюю версию <a href="http://getbootstrap.com/">Bootstrap 3</a> и <a href="http://www.wisdomweb.ru/CSS3/">CSS3</a>
+			который позволяет делать шикарную анимацию на сайт и различные эффекты, для программирования использую <a href="http://php.net/">PhP</a> в связке с библиотекой <a href="http://jquery.com/">Jquery</a>.
+			При создании сайта с необычным функционалом использую популярную <a href="https://modx.ru/">CMF Modx</a> для магазинов обычно <a href="https://www.opencart.com/">Opencart</a>. 
+			Любой сайт или приложение всегда делаю вовремя и качественно, после сдачи проекта вы всегда можете расчитывать на мою поддержку, при возникающих у вас вопросах.
+            <div class="social">
+            </div>
+        </div>
+        <!-- End Profile -->
+        
+    </div>
+    <!-- End People -->
+</div>
+</div>
+<!-- End About Section -->
+
+
+<!-- Contact Section -->
+<div id="contact" class="page">
+<div class="container">
+    <!-- Title Page -->
+    <div class="row">
+        <div class="span12">
+            <div class="title-page">
+                <h2 class="title">Оставить заявку</h2>
+                <h3 class="title-description">Используйте форму обратной связи чтобы оставить нам свою заявку.</h3>
+            </div>
+        </div>
+    </div>
+    <!-- End Title Page -->
+    
+    <!-- Contact Form -->
+    <div class="row">
+    	<div class="span9">
+        
+        	<form id="contact-form" class="contact-form" action="">
+            	<p class="contact-name">
+            		<input id="contact_name" type="text" placeholder="Введите имя" value="" name="name" />
+                </p>
+                <p class="contact-email">
+                	<input id="contact_email" type="text" placeholder="Введите Email" value="" name="email" />
+                </p>
+                <p class="contact-message">
+                	<textarea id="contact_message" placeholder="Ваше сообщение" name="message" rows="15" cols="40"></textarea>
+                </p>
+                <p class="contact-submit">
+                	<a id="contact-submit" type="submit" class="submit" >Оставить заявку</a>
+                </p>
+                
+                <div id="response">
+                
+                </div>
+            </form>
+         
+        </div>
+        
+        <div class="span3">
+        	<div class="contact-details">
+        		<h3>Контактные данные</h3>
+                <ul>
+                    <li><a href="mailto:zotovsasha90@gmail.com">zotovsasha90@gmail.com</a></li>
+                    <li>+7-908-798-17-29</li>
+                    <li>
+                        AlexZGroop
+                        <br>
+                        FullStack разработчик
+                        <br>
+                        vk.com/sashazotov1
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End Contact Form -->
+</div>
+</div>
+<!-- End Contact Section -->
+
+
+<!-- Socialize -->
+<div id="social-area" class="page">
+	<div class="container">
+    	<div class="row">
+            <div class="span12">
+                <nav id="social">
+                    <ul>
+						<li><a href="skype:a.zotov55" title="Skype" target="_blank"><span class="font-icon-social-skype"></span></a></li>
+						<li><a href="https://vk.com/sashazotov1" title="Vk" target="_blank"><span class="font-icon-social-blogger"></span></a></li>
+						<li><a href="https://my.mail.ru/mail/sashazotov1/" title="Vk" target="_blank"><span class="font-icon-social-email"></span></a></li>
+                        <li><a href="https://plus.google.com/u/0/101121673307350516648" title="Google Plus" target="_blank"><span class="font-icon-social-google-plus"></span></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Socialize -->
+
+<!-- Footer -->
+<footer>
+	<p class="credits">&copy;2018 <small class="down_sl">г.</small> <a href="/" title="http://work.diplomatoff.ru/">work.diplomatoff.ru</a> by AlexZGroop</p>
+</footer>
+<!-- End Footer -->
+
+<!-- Back To Top -->
+<a id="back-to-top" href="#">
+	<i class="font-icon-arrow-simple-up"></i>
+</a>
+<!-- End Back to Top -->
+
+
+<!-- Js -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> <!-- jQuery Core -->
+<script src="_include/js/jquery.fancybox.min.js"></script> <!-- Fancybox -->
+<script src="_include/js/bootstrap.min.js"></script> <!-- Bootstrap -->
+<script src="_include/js/supersized.3.2.7.min.js"></script> <!-- Slider -->
+<script src="_include/js/waypoints.js"></script> <!-- WayPoints -->
+<script src="_include/js/waypoints-sticky.js"></script> <!-- Waypoints for Header -->
+<script src="_include/js/jquery.isotope.js"></script> <!-- Isotope Filter -->
+<script src="_include/js/jquery.tweet.js"></script> <!-- Tweet -->
+<script src="_include/js/plugins.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
+<script src="_include/js/main.js"></script> <!-- Default JS -->
+<!-- End Js -->
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+				w.yaCounter44375749 = new Ya.Metrika({
+                    id:44375749,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true
+                });
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<div><img src="//mc.yandex.ru/watch/28238071" style="position:absolute; left:-9999px;" alt="" /></div>
+<!-- /Yandex.Metrika counter --> 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-59754249-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!--LiveInternet counter<script type="text/javascript">
+document.write("<a href='//www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t12.5;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet: показано число просмотров за 24"+
+" часа, посетителей за 24 часа и за сегодня' "+
+"border='0' width='88' height='31'><\/a>")
+</script>/LiveInternet-->
+<div style="height:31px;"></div>
+</body>
+</html>
